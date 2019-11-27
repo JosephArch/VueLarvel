@@ -41,6 +41,10 @@
                     <input type="date" name="fecha_de_reserva" class="form-control" min="" >
                 </div>
             </div>
+            <div class="form-group">
+                      <label>Date Time Picker</label>
+                      <input type="text" class="form-control datetimepicker">
+                    </div>
             <div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
                 <div class="form-group">
                     <label for="fecha_de_ingreso">Fecha de Ingreso ... esto tiene que ser automatico ... que hace aca</label>
@@ -86,5 +90,47 @@
             {!!Form::close()!!}
 
 
-
+            <div class="card">
+                  <div class="card-header">
+                    <h4>Date &amp; Time Picker</h4>
+                  </div>
+                  <div class="card-body">
+                    <div class="form-group">
+                      <label class="d-block">Date Range Picker With Button</label>
+                      <a href="javascript:;" class="btn btn-primary daterange-btn icon-left btn-icon"><i
+                          class="fas fa-calendar"></i> Choose Date
+                      </a>
+                    </div>
+                    <div class="form-group">
+                      <label>Date Picker</label>
+                      <input type="text" class="form-control datepicker">
+                    </div>
+                    <div class="form-group">
+                      <label>Date Time Picker</label>
+                      <input type="text" class="form-control datetimepicker">
+                    </div>
+                    <div class="form-group">
+                      <label>Date Range Picker</label>
+                      <div class="input-group">
+                        <div class="input-group-prepend">
+                          <div class="input-group-text">
+                            <i class="fas fa-calendar"></i>
+                          </div>
+                        </div>
+                        <input type="text" class="form-control daterange-cus">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label>Time Picker</label>
+                      <div class="input-group">
+                        <div class="input-group-prepend">
+                          <div class="input-group-text">
+                            <i class="fas fa-clock"></i>
+                          </div>
+                        </div>
+                        <input type="text" class="form-control timepicker">
+                      </div>
+                    </div>
+                  </div>
+                </div>
 @endsection
